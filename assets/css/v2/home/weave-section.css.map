@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,KAAK;CACf",
+    "sources": [
+        "weave-section.scss"
+    ],
+    "names": [],
+    "file": "weave-section.css"
+}

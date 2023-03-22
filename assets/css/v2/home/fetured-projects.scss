@@ -1,0 +1,83 @@
+.features {
+  padding: 100px 0 !important;
+}
+
+.work--title-fetured {
+  -webkit-text-stroke: 2px rgba(191, 191, 191, 0.31);
+
+  h1 {
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 12vw;
+    color: rgba(0, 0, 0, 0) !important;
+    letter-spacing: -2px;
+    text-align: center;
+
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-family: unset !important;
+  }
+}
+
+.fetured-projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  transform: translateY(-25%);
+
+  a {
+    height: fit-content;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+
+    background: #fff;
+    border: 1px solid #88888836;
+    border-radius: 15px;
+  }
+
+  .single-projects {
+    display: flex;
+    flex-direction: column;
+
+    .proj-img-cont {
+      height: 260px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .projects-explain-cont {
+      text-align: left;
+
+      h2 {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #f78419;
+
+        line-height: 150%;
+        margin-bottom: unset;
+
+        -webkit-text-stroke: white;
+      }
+
+      p {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #b0b0b0;
+
+        line-height: 150%;
+
+        -webkit-text-stroke: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.news {
+  background-image: url(/assets/images/work/soil.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: unset !important;
+}
+
+.news .half-div {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px 20px 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news .half-div h2 {
+  margin-bottom: 10px;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #404040;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+
+.news .half-div h2 span {
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #0172da;
+  color: #fff;
+}
+
+.news .half-div p {
+  max-width: 80%;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #b0b0b0;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+
+.news .half-div a {
+  background-color: #f78419;
+  color: #fff;
+  padding: 10px 40px;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  -webkit-text-stroke: white;
+}
+/*# sourceMappingURL=proj_solarsoil.css.map */

@@ -1,0 +1,63 @@
+.news {
+  background-image: url(/assets/images/work/soil.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: unset !important;
+
+  .half-div {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+
+    padding: 20px 20px 0 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 3.4rem;
+      font-weight: 500;
+      color: #404040;
+
+      line-height: 150%;
+
+      -webkit-text-stroke: white;
+
+      span {
+        white-space: nowrap;
+        padding: 10px;
+        background-color: #0172da;
+        color: #fff;
+      }
+    }
+
+    p {
+      max-width: 80%;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #b0b0b0;
+
+      line-height: 150%;
+
+      -webkit-text-stroke: white;
+    }
+
+    a {
+      background-color: #f78419;
+      color: #fff;
+      padding: 10px 40px;
+      text-decoration: none;
+      width: fit-content;
+
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 1.2rem;
+
+      -webkit-text-stroke: white;
+    }
+  }
+}
