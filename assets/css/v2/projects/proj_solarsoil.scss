@@ -17,24 +17,6 @@
     flex-direction: column;
     justify-content: center;
 
-    h2 {
-      margin-bottom: 10px;
-      font-size: 3.4rem;
-      font-weight: 500;
-      color: #404040;
-
-      line-height: 150%;
-
-      -webkit-text-stroke: white;
-
-      span {
-        white-space: nowrap;
-        padding: 10px;
-        background-color: #0172da;
-        color: #fff;
-      }
-    }
-
     p {
       max-width: 80%;
       font-size: 0.9rem;
@@ -60,4 +42,30 @@
       -webkit-text-stroke: white;
     }
   }
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #404040;
+
+  line-height: 150%;
+
+  -webkit-text-stroke: white;
+
+  span {
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #0172da;
+    color: #fff;
+  }
+}
+
+.airplane {
+  background-image: url(/assets/images/work/deicing-airplane-airport_000.jpg);
+}
+
+.seeds {
+  background-image: url(/assets/images/work/solarsand_largeGrain.jpg);
 }

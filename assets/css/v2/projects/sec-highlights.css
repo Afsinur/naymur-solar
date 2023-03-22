@@ -1,3 +1,7 @@
+.sec-highlights {
+  padding: 120px 0 20px 0 !important;
+}
+
 .sec-highlights .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,8 +24,18 @@
 }
 
 .sec-highlights .container .txt-sec {
-  padding: 10px;
+  padding: 0 40px;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .sec-highlights .container .grid-sec {
@@ -29,6 +43,8 @@
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
+  -ms-grid-rows: auto 560px 560px;
+      grid-template-rows: auto 560px 560px;
   gap: 20px;
 }
 
@@ -38,5 +54,42 @@
   gap: 20px;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+.sec-highlights .progress {
+  height: 4px;
+  border-radius: 2px;
+}
+
+.sec-highlights .progress-bar {
+  background-color: #fa7a18;
+}
+
+.sec-highlights .progressbar {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.sec-highlights .progress-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sec-highlights .progress-title .title {
+  color: #222;
+}
+
+.sec-highlights .progress-title .value {
+  color: #9b9b9b;
+}
+
+.sec-highlights .work-share a {
+  margin-right: 15px;
+  color: #212121;
 }
 /*# sourceMappingURL=sec-highlights.css.map */

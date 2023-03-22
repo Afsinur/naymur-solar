@@ -1,0 +1,23 @@
+.end-bar-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.end-bar {
+  width: 160px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.end-bar-black {
+  width: 160px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #313131;
+}
+/*# sourceMappingURL=end-bar.css.map */

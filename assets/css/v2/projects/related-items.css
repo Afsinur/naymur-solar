@@ -1,0 +1,81 @@
+.related-items h2 {
+  margin-bottom: 10px;
+  font-size: 3.4rem;
+  font-weight: 500;
+  color: #404040;
+  line-height: 150%;
+  -webkit-text-stroke: white;
+}
+
+.related-items .related-card {
+  margin-right: 20px;
+  width: 260px;
+  height: 360px;
+  position: relative;
+  overflow: hidden;
+}
+
+.related-items .related-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.related-items .related-card .absolute-go {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.related-items .related-card .absolute-go span {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.related-items .related-card .absolute-go a {
+  background-color: #fa7a18;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.related-items .related-card:hover .absolute-go {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.related-items .related-prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=related-items.css.map */
