@@ -17,7 +17,6 @@
 
     .txt-sec {
       padding: 0 40px;
-      width: 50%;
 
       display: flex;
       flex-direction: column;
@@ -72,6 +71,45 @@
     a {
       margin-right: 15px;
       color: #212121;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      .txt-sec {
+        > div {
+          margin-bottom: 10px;
+        }
+      }
+
+      .grid-sec {
+        grid-template-rows: 260px 560px 560px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .container {
+      flex-direction: column;
+
+      > div {
+        max-width: 100%;
+      }
+
+      .txt-sec {
+        padding: 0;
+
+        > div {
+          margin-bottom: 10px;
+        }
+      }
+
+      .grid-sec {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+
+        padding-bottom: 60px;
+      }
     }
   }
 }

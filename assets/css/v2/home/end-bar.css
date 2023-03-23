@@ -1,10 +1,6 @@
 .end-bar-cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .end-bar {
@@ -20,4 +16,10 @@
   border-radius: 2px;
   background-color: #313131;
 }
-/*# sourceMappingURL=end-bar.css.map */
+
+.vision-bar {
+  justify-content: start;
+}
+.vision-bar .end-bar-black {
+  background-color: #fa7a18;
+}/*# sourceMappingURL=end-bar.css.map */

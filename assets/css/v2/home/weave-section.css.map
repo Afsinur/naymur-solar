@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,KAAK;CACf",
-    "sources": [
-        "weave-section.scss"
-    ],
-    "names": [],
-    "file": "weave-section.css"
-}
+{"version":3,"sources":["weave-section.scss","weave-section.css"],"names":[],"mappings":"AAAA;EACE,cAAA;ACCF","file":"weave-section.css"}

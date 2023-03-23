@@ -69,3 +69,60 @@ h2 {
 .seeds {
   background-image: url(/assets/images/work/solarsand_largeGrain.jpg);
 }
+
+.vision {
+  background-image: linear-gradient(
+      rgba(255, 255, 0, 0.25),
+      rgba(255, 255, 0, 0.25)
+    ),
+    url(/assets/images/background/vision-bg.jpg);
+  height: 60vh;
+
+  .half-div {
+    width: 70%;
+    margin-left: auto;
+
+    background-color: #f78419;
+
+    h2 {
+      color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .half-div {
+      padding: 10px;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    .half-div {
+      width: 70%;
+
+      h2 {
+        font-size: 2.4rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .news {
+    .half-div {
+      padding: 10px;
+
+      h2 {
+        font-size: 6vw !important;
+        span {
+          padding: 2px;
+        }
+      }
+    }
+  }
+}

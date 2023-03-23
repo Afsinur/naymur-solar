@@ -32,4 +32,10 @@
       width: 300px;
     }
   }
+
+  @media screen and (max-width: 425px) {
+    .newsletter-container {
+      flex-direction: column;
+    }
+  }
 }

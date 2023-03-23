@@ -1,6 +1,6 @@
 .hero-sec {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
 
   padding-top: 180px;
@@ -39,5 +39,25 @@
     font-size: 1.2rem;
     font-weight: 500;
     color: #ddd;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: 100px !important;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    padding-top: 100px !important;
+
+    h1 {
+      font-size: 10vw;
+    }
+
+    p {
+      font-size: 5vw;
+    }
   }
 }

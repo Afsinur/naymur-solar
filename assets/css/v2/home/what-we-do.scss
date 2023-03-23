@@ -42,4 +42,10 @@
       -webkit-text-stroke: white;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .title-cont {
+      max-width: 100%;
+    }
+  }
 }

@@ -6,24 +6,15 @@
   width: 100%;
   padding: unset !important;
 }
-
 .news .half-div {
   width: 50%;
   height: 100%;
   background-color: #fff;
   padding: 20px 20px 0 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .news .half-div p {
   max-width: 80%;
   font-size: 0.9rem;
@@ -32,13 +23,11 @@
   line-height: 150%;
   -webkit-text-stroke: white;
 }
-
 .news .half-div a {
   background-color: #f78419;
   color: #fff;
   padding: 10px 40px;
   text-decoration: none;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin-top: 20px;
@@ -55,7 +44,6 @@ h2 {
   line-height: 150%;
   -webkit-text-stroke: white;
 }
-
 h2 span {
   white-space: nowrap;
   padding: 10px;
@@ -70,4 +58,44 @@ h2 span {
 .seeds {
   background-image: url(/assets/images/work/solarsand_largeGrain.jpg);
 }
-/*# sourceMappingURL=proj_solarsoil.css.map */
+
+.vision {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/vision-bg.jpg);
+  height: 60vh;
+}
+.vision .half-div {
+  width: 70%;
+  margin-left: auto;
+  background-color: #f78419;
+}
+.vision .half-div h2 {
+  color: #fff;
+}
+@media screen and (max-width: 425px) {
+  .vision .half-div {
+    padding: 10px;
+  }
+  .vision .half-div h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news .half-div {
+    width: 70%;
+  }
+  .news .half-div h2 {
+    font-size: 2.4rem !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .news .half-div {
+    padding: 10px;
+  }
+  .news .half-div h2 {
+    font-size: 6vw !important;
+  }
+  .news .half-div h2 span {
+    padding: 2px;
+  }
+}/*# sourceMappingURL=proj_solarsoil.css.map */

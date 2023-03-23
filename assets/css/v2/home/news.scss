@@ -71,4 +71,19 @@
       -webkit-text-stroke: white;
     }
   }
+
+  @media screen and (max-width: 425px) {
+    h1 {
+      margin: 20px 0;
+    }
+
+    .half-div {
+      width: 80%;
+      padding: 10px 10px 10px 10px;
+    }
+
+    a {
+      text-align: center;
+    }
+  }
 }
