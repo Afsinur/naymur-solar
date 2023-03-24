@@ -69,6 +69,8 @@
             backdrop-filter: blur(4px);
     background-color: transparent;
     z-index: 1;
+    display: grid;
+    align-content: center;
   }
 }
 @media screen and (max-width: 425px) {
