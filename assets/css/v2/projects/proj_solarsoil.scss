@@ -1,5 +1,5 @@
 .news {
-  background-image: url(/assets/images/work/soil.jpg);
+  background-image: url(/assets/images/work/sample_onsand1.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -153,17 +153,8 @@ h2 {
 @media screen and (max-width: 1200px) {
   .news {
     .half-div {
-      width: 100% !important;
-
-      display: grid;
-      align-content: center;
-
-      background-color: transparent;
-      backdrop-filter: blur(4px);
-
-      h2 {
-        font-size: 2.4rem !important;
-      }
+      padding: 20px;
+      width: 70% !important;
     }
   }
 }
@@ -171,11 +162,19 @@ h2 {
 @media screen and (max-width: 768px) {
   .news {
     .half-div {
+      padding: 20px;
+      width: 100% !important;
+
       display: grid;
       align-content: center;
+      justify-content: center;
+
+      background-color: transparent;
+      backdrop-filter: blur(4px);
 
       h2 {
         font-size: 2.4rem !important;
+        color: #fff;
       }
     }
   }
