@@ -1,3 +1,7 @@
+.end-bar-sec {
+  padding: 40px 0;
+}
+
 .end-bar-cont {
   display: flex;
   justify-content: center;
@@ -11,7 +15,7 @@
 }
 
 .end-bar-black {
-  width: 160px;
+  width: 70%;
   height: 4px;
   border-radius: 2px;
   background-color: #313131;
@@ -22,4 +26,21 @@
 }
 .vision-bar .end-bar-black {
   background-color: #fa7a18;
+}
+
+.vertical-bar {
+  width: 4px;
+  height: 35%;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .vertical-bar {
+    width: 35%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: 20px 0;
+  }
 }/*# sourceMappingURL=end-bar.css.map */

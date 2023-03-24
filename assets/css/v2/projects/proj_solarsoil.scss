@@ -5,6 +5,7 @@
   background-size: cover;
   width: 100%;
   padding: unset !important;
+  background-repeat: no-repeat;
 
   .half-div {
     width: 50%;
@@ -42,11 +43,39 @@
       -webkit-text-stroke: white;
     }
   }
+
+  .go-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    p {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 120%;
+      font-weight: 600;
+
+      margin-bottom: unset;
+    }
+
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 80px 0 20px 40px;
+
+      p {
+        max-width: 96%;
+      }
+    }
+  }
 }
 
 h2 {
   margin-bottom: 10px;
-  font-size: 3.4rem;
   font-weight: 500;
   color: #404040;
 
@@ -89,15 +118,36 @@ h2 {
     }
   }
 
+  @media screen and (max-width: 768px) {
+    height: 80vh !important;
+  }
+
   @media screen and (max-width: 425px) {
     .half-div {
       padding: 10px;
+      width: 80% !important;
 
       h2 {
         font-size: 2rem;
       }
     }
   }
+}
+
+.contact-us {
+  background-image: linear-gradient(
+      rgba(255, 255, 0, 0.25),
+      rgba(255, 255, 0, 0.25)
+    ),
+    url(/assets/images/background/contact-bg.jpg);
+}
+
+.team-custom {
+  background-image: linear-gradient(
+      rgba(255, 255, 0, 0.25),
+      rgba(255, 255, 0, 0.25)
+    ),
+    url(/assets/images/background/team-bg.jpg);
 }
 
 @media screen and (max-width: 768px) {
@@ -118,7 +168,7 @@ h2 {
       padding: 10px;
 
       h2 {
-        font-size: 6vw !important;
+        font-size: 10vw !important;
         span {
           padding: 2px;
         }

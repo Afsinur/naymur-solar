@@ -21,6 +21,7 @@
   justify-content: space-between;
 }
 .sec-highlights .container .grid-sec {
+  align-items: self-end;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto 560px 560px;
@@ -30,6 +31,9 @@
   display: grid;
   gap: 20px;
   grid-template-columns: auto auto;
+}
+.sec-highlights .container .grid-sec img {
+  border-radius: 10px;
 }
 .sec-highlights .progress {
   height: 4px;
@@ -58,22 +62,11 @@
   color: #212121;
 }
 @media screen and (max-width: 768px) {
-  .sec-highlights .container .txt-sec > div {
-    margin-bottom: 10px;
-  }
-  .sec-highlights .container .grid-sec {
-    grid-template-rows: 260px 560px 560px;
-  }
-}
-@media screen and (max-width: 425px) {
   .sec-highlights .container {
     flex-direction: column;
   }
   .sec-highlights .container > div {
     max-width: 100%;
-  }
-  .sec-highlights .container .txt-sec {
-    padding: 0;
   }
   .sec-highlights .container .txt-sec > div {
     margin-bottom: 10px;
@@ -82,5 +75,13 @@
     grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
     padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sec-highlights .container .txt-sec {
+    padding: 0;
+  }
+  .sec-highlights .container .txt-sec > div {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=sec-highlights.css.map */

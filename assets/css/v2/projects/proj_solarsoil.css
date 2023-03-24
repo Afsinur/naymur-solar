@@ -5,6 +5,7 @@
   background-size: cover;
   width: 100%;
   padding: unset !important;
+  background-repeat: no-repeat;
 }
 .news .half-div {
   width: 50%;
@@ -35,10 +36,35 @@
   font-size: 1.2rem;
   -webkit-text-stroke: white;
 }
+.news .go-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.news .go-row p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 120%;
+  font-weight: 600;
+  margin-bottom: unset;
+}
+@media screen and (max-width: 1200px) {
+  .news .go-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 80px 0 20px 40px;
+  }
+  .news .go-row p {
+    max-width: 96%;
+  }
+}
 
 h2 {
   margin-bottom: 10px;
-  font-size: 3.4rem;
   font-weight: 500;
   color: #404040;
   line-height: 150%;
@@ -71,13 +97,27 @@ h2 span {
 .vision .half-div h2 {
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .vision {
+    height: 80vh !important;
+  }
+}
 @media screen and (max-width: 425px) {
   .vision .half-div {
     padding: 10px;
+    width: 80% !important;
   }
   .vision .half-div h2 {
     font-size: 2rem;
   }
+}
+
+.contact-us {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/contact-bg.jpg);
+}
+
+.team-custom {
+  background-image: linear-gradient(rgba(255, 255, 0, 0.25), rgba(255, 255, 0, 0.25)), url(/assets/images/background/team-bg.jpg);
 }
 
 @media screen and (max-width: 768px) {
@@ -93,7 +133,7 @@ h2 span {
     padding: 10px;
   }
   .news .half-div h2 {
-    font-size: 6vw !important;
+    font-size: 10vw !important;
   }
   .news .half-div h2 span {
     padding: 2px;

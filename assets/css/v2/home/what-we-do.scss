@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-text-stroke: 2px rgba(191, 191, 191, 0.31);
+  -webkit-text-stroke: 2px #fa7a18;
   position: relative;
 
   h1 {
@@ -46,6 +46,10 @@
   @media screen and (max-width: 768px) {
     .title-cont {
       max-width: 100%;
+    }
+
+    h1 {
+      font-size: 16vw;
     }
   }
 }

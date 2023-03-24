@@ -3,7 +3,7 @@
 }
 
 .work--title-fetured {
-  -webkit-text-stroke: 2px rgba(191, 191, 191, 0.31);
+  -webkit-text-stroke: 2px #fa7a18;
 }
 .work--title-fetured h1 {
   font-weight: 800;
@@ -12,10 +12,18 @@
   font-size: 12vw;
   color: rgba(0, 0, 0, 0) !important;
   letter-spacing: -2px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
-  text-align: center;
   font-family: unset !important;
+  line-height: 50%;
+}
+.work--title-fetured .prod-h1 {
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+  .work--title-fetured h1 {
+    font-size: 16vw;
+  }
 }
 
 .fetured-projects-container {
@@ -23,17 +31,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  transform: translateY(-25%);
 }
 .fetured-projects-container a {
   height: -moz-fit-content;
   height: fit-content;
-  width: 30%;
+  width: 380px;
   padding: 20px;
   margin: 20px;
   background: #fff;
   border: 1px solid rgba(136, 136, 136, 0.2117647059);
   border-radius: 15px;
+}
+.fetured-projects-container a:hover {
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.15);
 }
 .fetured-projects-container .single-projects {
   display: flex;
@@ -66,6 +76,14 @@
   color: #b0b0b0;
   line-height: 150%;
   -webkit-text-stroke: white;
+}
+@media screen and (max-width: 768px) {
+  .fetured-projects-container {
+    flex-direction: column;
+  }
+  .fetured-projects-container a {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 425px) {
   .fetured-projects-container {

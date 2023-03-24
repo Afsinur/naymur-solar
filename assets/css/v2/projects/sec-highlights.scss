@@ -24,6 +24,8 @@
     }
 
     .grid-sec {
+      align-items: self-end;
+
       display: grid;
 
       grid-template-columns: 100%;
@@ -35,6 +37,10 @@
         gap: 20px;
 
         grid-template-columns: auto auto;
+      }
+
+      img {
+        border-radius: 10px;
       }
     }
   }
@@ -76,20 +82,6 @@
 
   @media screen and (max-width: 768px) {
     .container {
-      .txt-sec {
-        > div {
-          margin-bottom: 10px;
-        }
-      }
-
-      .grid-sec {
-        grid-template-rows: 260px 560px 560px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 425px) {
-    .container {
       flex-direction: column;
 
       > div {
@@ -97,8 +89,6 @@
       }
 
       .txt-sec {
-        padding: 0;
-
         > div {
           margin-bottom: 10px;
         }
@@ -109,6 +99,18 @@
         grid-template-rows: repeat(3, auto);
 
         padding-bottom: 60px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .container {
+      .txt-sec {
+        padding: 0;
+
+        > div {
+          margin-bottom: 10px;
+        }
       }
     }
   }
